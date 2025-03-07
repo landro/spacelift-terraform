@@ -19,7 +19,7 @@ provider "digitalocean" {
 
 resource "digitalocean_project" "spacelift" {
   name        = "spacelift"
-  description = "A project to represent ${var.env} resources."
+  description = "A project to represent ${var.env} resources. Testing PR."
   purpose     = "Testing spacelift"
   environment = "Development"
 }
